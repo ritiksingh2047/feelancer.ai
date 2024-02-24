@@ -1,0 +1,123 @@
+#header
+{
+    background-color: hsl(0, 59%, 41%);
+    size: 200px;
+    padding-left: 205px;
+    padding-top: 10px;
+
+}
+
+#name
+{
+    color: rgb(247, 204, 12);
+    font-size: 60px;
+    text-align: center;
+    text-decoration: solid;
+    text-align: start;
+    padding-left: 40px;
+}
+
+.sidenav {
+    height:max-content;
+    width: 120px; 
+    position:relative;
+    top: 100;
+    left:100;
+    background-color: hsl(0, 59%, 41%);
+    padding-top: 30px;
+    text-decoration: wavy;
+    font-size: 28px;
+}
+.sidenav a {
+    padding: 30px 15px;
+    text-decoration: none;
+    font-size: 20px;
+    font-display:initial
+    font-style: italic;
+    color: #fff; 
+    display:block;
+}
+
+
+
+#welcome{
+    background-color: #bd6b24;
+    text-align: center;
+    font-size: 50px;
+    font-style: oblique;
+    font
+}
+
+.grid-container {
+    display:flex;
+    justify-content: space-between; 
+    
+}
+
+.grid-item {
+    flex: 1; 
+    margin: 5px; 
+}
+
+
+#footer{
+    background-color: hsl(0, 59%, 41%);
+    size: 500px;
+    text-align: center;
+}
+
+
+.services{
+    background-color: #bd6b24;
+}
+
+
+
+.container {
+    max-width: 330px;
+    background-color: #e99b9b;
+    margin: 0 auto;
+    padding: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display:flexbox;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #f90c0c;
+    border-radius: 30px;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  button[type="submit"] {
+    background-color: #e82966;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #f4d407;
+  }
+  
